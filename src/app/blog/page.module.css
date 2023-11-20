@@ -1,0 +1,13 @@
+.container {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}

@@ -1,0 +1,44 @@
+
+.topContainer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.leftContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 30px;
+
+}
+
+.desc {
+  font-size: 16px;
+}
+
+.iconImgContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconImg{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.iconTitle{
+  font-size: 14px;
+}
+
+.bottomContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.5;
+}

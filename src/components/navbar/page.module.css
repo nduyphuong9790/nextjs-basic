@@ -1,0 +1,33 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #2d8e5f,#bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.logout{
+    padding: 5px;
+    border: none;
+    background-color: #53c28b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
